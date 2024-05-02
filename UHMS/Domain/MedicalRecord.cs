@@ -9,7 +9,7 @@ namespace Domain
     public class MedicalRecord
     {
         public int RecordId { get; set; }
-        public Patient? Patient { get; set; }
+        public int PatientId { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime VisitDate { get; set; }
         public VisitType VisitType { get; set; }

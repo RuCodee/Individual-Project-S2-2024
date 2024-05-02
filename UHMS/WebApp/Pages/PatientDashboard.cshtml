@@ -10,10 +10,18 @@
     </div>
     <nav class="main-nav">
         <ul>
-            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="/Doctors">Doctors</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li class="login-button"><a asp-page="/PatientProfile">Profile</a></li>
+            <li class="login-button dropdown"><a asp-page="/PatientProfile" asp-route-UserId="@Model.UserId">Profile</a>
+            <div class="profile-dashboard-dropdown">
+                    <div class="dropdown-item full-name">@Model.User.FirstName @Model.User.LastName</div>
+                <div class="dropdown-divider"></div>
+                    <a class="dropdown-item dropdown-link" asp-page="/PatientProfile" asp-route-UserId="@Model.UserId">Profile</a>
+                    <a class="dropdown-item dropdown-link" asp-page="/PatientEditProfile" asp-route-UserId="@Model.UserId">Edit Profile</a>
+                    <a class="dropdown-item dropdown-link" asp-page="/Logout">Logout</a>
+            </div>
+            </li>
         </ul>
     </nav>
 </header>

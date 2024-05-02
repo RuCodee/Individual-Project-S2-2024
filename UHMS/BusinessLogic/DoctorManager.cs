@@ -17,10 +17,9 @@ namespace BusinessLogic
             _doctorDAL = doctorDAL;
         }
 
-        public void AddDoctor(Doctor doctor)
+        public async Task AddDoctor(Doctor doctor)
         {
-            // Implement the logic to add a doctor record, possibly involving DoctorDAL
-            _doctorDAL.CreateDoctor(doctor);
+            await _doctorDAL.CreateDoctor(doctor);
         }
 
         public void UpdateMedicalRecord(int patientId, int recordId, MedicalRecord updatedRecord)

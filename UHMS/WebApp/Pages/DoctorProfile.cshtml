@@ -1,0 +1,81 @@
+﻿@page
+@model WebApp.Pages.DoctorProfileModel
+@{
+Layout = "_Layout";
+}
+
+<header class="header">
+    <div class="logo-container">
+        <img src="~/images/RuMED.png" alt="RuMED Logo" class="logo">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/Doctors">Doctors</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li class="login-button"><a asp-page="/PatientDashboard">Dashboard</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section class="profile-section">
+    <div class="profile-card">
+        <div class="profile-picture"></div>
+        <p>SSN: @Model.DoctorDetails.SSN</p>
+        <p>Full Name: @Model.DoctorDetails.FirstName @Model.DoctorDetails.LastName</p>
+        <p>Phone Number: @Model.DoctorDetails.TelephoneNumber</p>
+        <button class="edit-profile-btn" id="editProfileBtn" asp-page="/EditDoctorProfile" asp-route-userId="@Model.DoctorDetails.Id">Edit Profile</button>
+    </div>
+    <div class="patient-details-container">
+        <!-- Doctor's own details -->
+        <div class="patient-details">
+            <div class="detail"><span class="label">First Name:</span> <span class="value">@Model.DoctorDetails.FirstName</span></div>
+            <div class="detail"><span class="label">Last Name:</span> <span class="value">@Model.DoctorDetails.LastName</span></div>
+            <div class="detail"><span class="label">Date Of Birth:</span> <span class="value">@Model.DoctorDetails.DateOfBirth.ToString("dd/MM/yyyy")</span></div>
+            <div class="detail"><span class="label">Gender:</span> <span class="value">@Model.DoctorDetails.Gender.ToString()</span></div>
+            <div class="detail"><span class="label">Phone Number:</span> <span class="value" data-field="TelephoneNumber">@Model.DoctorDetails.TelephoneNumber</span></div>
+            <div class="detail"><span class="label">SSN:</span> <span class="value">@Model.DoctorDetails.SSN</span></div>
+            <div class="detail"><span class="label">Email Address:</span> <span class="value" data-field="EmailAddress">@Model.DoctorDetails.EmailAddress</span></div>
+            <div class="detail"><span class="label">Home Address:</span> <span class="value" data-field="HomeAddress">@Model.DoctorDetails.HomeAddress</span></div>
+        </div>
+        <div class="password-management">
+            <p>Password: ********</p>
+            <button class="change-password-btn">Change Password</button>
+        </div>
+    </div>
+</section>
+
+<div id="passwordModal" class="password-modal" style="display:none;">
+    <div class="password-modal-content">
+        <span class="close">&times;</span>
+        <form id="passwordForm">
+            <p>
+                <label for="currentPassword">Current Password:</label>
+                <input type="password" id="currentPassword" name="currentPassword" required>
+            </p>
+            <p>
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+            </p>
+            <button type="submit" class="change-password-btn">Change Password</button>
+            <p id="passwordError" style="color: red; display: none;">Error message here.</p>
+        </form>
+    </div>
+</div>
+
+<section class="contact-section">
+    <div class="contact-label parent-contact-label">Clinic Information</div>
+    <div class="contact-details">
+        <div class="column">
+            <div class="detail"><span class="label">Address:</span> <span class="value">@Model.DoctorDetails.ClinicAddress</span></div>
+            <div class="detail"><span class="label">City:</span> <span class="value">@Model.DoctorDetails.ClinicCity</span></div>
+            <div class="detail"><span class="label">Post Code:</span> <span class="value">@Model.DoctorDetails.ClinicPCode</span></div>
+            <div class="detail"><span class="label">Phone Number:</span> <span class="value">@Model.DoctorDetails.ClinicPhone</span></div>
+            <div class="detail"><span class="label">Email:</span> <span class="value">@Model.DoctorDetails.ClinicEmail</span></div>
+        </div>
+        <button class="edit-contact-btn">Edit</button>
+    </div>
+</section>
+
+<script src="~/js/DoctorProfileEdit.js"></script>

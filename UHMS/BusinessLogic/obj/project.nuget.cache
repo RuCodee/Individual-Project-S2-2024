@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n6u/D5yxSnlpqBzg31brlA4z1acW1jPYsy6pPKHtXYzHkz5IZF+Is6PDsnlm1kRwGYaLUISKC5OKi/LeMSFtow==",
+  "dgSpecHash": "LmkTA0oJKQCOXq4jHn+BWQZzmemUtIy8rQWjv2Z3esjTbwXIujxbUfRsaeoi/+SCbhpw5jMSu5H5sJ2L2LFX8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\individual-project-s2-2024-Dev\\individual-project-s2-2024-Dev\\UHMS\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UNIV\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\UNIV\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -11,6 +11,12 @@
     "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.0\\microsoft.data.sqlclient.5.2.0.nupkg.sha512",
     "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.2.0\\microsoft.data.sqlclient.sni.runtime.5.2.0.nupkg.sha512",
+    "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
     "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.56.0\\microsoft.identity.client.extensions.msal.4.56.0.nupkg.sha512",
     "C:\\Users\\UNIV\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",

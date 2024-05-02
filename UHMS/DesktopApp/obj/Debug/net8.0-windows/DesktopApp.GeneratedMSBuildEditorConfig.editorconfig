@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DesktopApp
-build_property.ProjectDir = C:\Users\UNIV\OneDrive\Desktop\individual-project-s2-2024-Dev\individual-project-s2-2024-Dev\UHMS\DesktopApp\
+build_property.ProjectDir = C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

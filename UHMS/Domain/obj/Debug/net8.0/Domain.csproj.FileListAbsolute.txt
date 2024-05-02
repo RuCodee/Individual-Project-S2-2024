@@ -9,3 +9,14 @@ C:\Users\UNIV\Downloads\individual-project-s2-2024-Dev\individual-project-s2-202
 C:\Users\UNIV\Downloads\individual-project-s2-2024-Dev\individual-project-s2-2024-Dev\UHMS\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\UNIV\Downloads\individual-project-s2-2024-Dev\individual-project-s2-2024-Dev\UHMS\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\UNIV\Downloads\individual-project-s2-2024-Dev\individual-project-s2-2024-Dev\UHMS\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\Domain\obj\Debug\net8.0\ref\Domain.dll

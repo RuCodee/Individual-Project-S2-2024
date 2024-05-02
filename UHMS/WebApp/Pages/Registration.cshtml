@@ -10,10 +10,10 @@
     </div>
     <nav class="main-nav">
         <ul>
-            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="/Doctors">Doctors</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li class="login-button"><a asp-page="/Registration">Register</a></li>
+            <li class="login-button"><a asp-page="/Login">Login</a></li>
         </ul>
     </nav>
 </header>
@@ -63,8 +63,8 @@
         </div>
 
         <div class="form-group">
-            <label asp-for="Input.SSN" class="required-star">SSN</label>
-            <input asp-for="Input.SSN" class="form-control" pattern="[0-9]{9}" title="9 digits only" required>
+            <label asp-for="Input.SSN">SSN</label>
+            <input asp-for="Input.SSN" class="form-control" pattern="[0-9]{9}" title="9 digits only, no special characters" required>
             <span asp-validation-for="Input.SSN" class="text-danger"></span>
         </div>
 
@@ -92,21 +92,30 @@
         </div>
 
         <div class="form-group" id="jobIdDiv" style="display:none;">
-            <label>Job ID</label>
-            <input type="text" class="form-control" id="jobId" name="jobId">
+            <label asp-for="Input.DoctorJobId">Job ID</label>
+            <input asp-for="Input.DoctorJobId" class="form-control" id="Input_DoctorJobId">
+            <span asp-validation-for="Input.DoctorJobId" class="text-danger"></span>
         </div>
 
+        <div class="form-group" id="adminJobIdDiv" style="display:none;">
+            <label asp-for="Input.AdministratorJobId">Administrator Job ID</label>
+            <input asp-for="Input.AdministratorJobId" class="form-control" id="Input_AdministratorJobId">
+            <span asp-validation-for="Input.AdministratorJobId" class="text-danger"></span>
+        </div>
+
+
         <div id="specializationDiv" class="form-group" style="display: none;">
-            <label for="specialization">Specialization</label>
-            <select id="specialization" name="specialization" class="form-control" required>
+            <label asp-for="Input.Specialization">Specialization</label>
+            <select asp-for="Input.Specialization" class="form-control" id="Input_Specialization">
                 <option value="">Select a specialization...</option>
-                <option value="Dentist">Dentist</option>
-                <option value="EyeDoctor">Eye Doctor</option>
-                <option value="GeneralPractitioner">General Practitioner</option>
-                <option value="Neurologist">Neurologist</option>
-                <option value="Cardiologist">Cardiologist</option>
-                <option value="Oncologist">Oncologist</option>
+                <option value="1">Dentist</option>
+                <option value="2">Eye Doctor</option>
+                <option value="3">General Practitioner</option>
+                <option value="4">Neurologist</option>
+                <option value="5">Cardiologist</option>
+                <option value="6">Oncologist</option>
             </select>
+            <span asp-validation-for="Input.Specialization" class="text-danger"></span>
         </div>
 
         <div class="form-group">
@@ -128,27 +137,33 @@
         var roleSelect = document.getElementById("Input_Role");
         var role = roleSelect.value;
         var jobIdDiv = document.getElementById("jobIdDiv");
-        var jobIdInput = document.getElementById("jobId");
+        var doctorJobIdInput = document.getElementById("Input_DoctorJobId");
         var specializationDiv = document.getElementById("specializationDiv");
-
-        // Reset display states
+        var specializationSelect = document.getElementById("Input_Specialization");
+        var adminJobIdDiv = document.getElementById("adminJobIdDiv");
+        var adminJobIdInput = document.getElementById("Input_AdministratorJobId");
+       
         jobIdDiv.style.display = 'none';
+        adminJobIdDiv.style.display = 'none';
         specializationDiv.style.display = 'none';
-        jobIdInput.removeAttribute('name');
-        jobIdInput.removeAttribute('required');
 
-        // Only display job ID and specialization fields for Doctor role
+        doctorJobIdInput.name = 'Input.DoctorJobId';
+        adminJobIdInput.name = 'Input.AdministratorJobId';
+        specializationSelect.name = 'Input.Specialization';
+
         if (role === 'Doctor') {
             jobIdDiv.style.display = 'block';
-            specializationDiv.style.display = 'block'; // Show the specialization select only for Doctors
-            jobIdInput.setAttribute('name', 'doctorJobId');
-            jobIdInput.setAttribute('required', '');
+            specializationDiv.style.display = 'block';
+            doctorJobIdInput.required = true;
+            specializationSelect.required = true;
         }
-        // Only display job ID field for Administrator role
         else if (role === 'Administrator') {
-            jobIdDiv.style.display = 'block';
-            jobIdInput.setAttribute('name', 'administratorJobId');
-            jobIdInput.setAttribute('required', '');
+            adminJobIdDiv.style.display = 'block';
+            adminJobIdInput.required = true;
+        }
+        else {
+            doctorJobIdInput.required = false;
+            specializationSelect.required = false;
         }
     }
 
@@ -157,9 +172,4 @@
         roleSelect.addEventListener('change', handleRoleChange);
         handleRoleChange(); // To ensure correct display on page load if there's a selected value
     }, false);
-
-    function validateForm() {
-        // Client-side form validation logic, if necessary beyond HTML5 and _ValidationScriptsPartial
-        return true; // Placeholder for actual validation logic
-    }
 </script>

@@ -17,10 +17,10 @@ namespace BusinessLogic
             _administratorDAL = administratorDAL;
         }
 
-        public void AddAdministrator(Administrator administrator)
+        public async Task AddAdministrator(Administrator administrator)
         {
             // Implement the logic to add an administrator record, possibly involving AdministratorDAL
-            _administratorDAL.CreateAdministrator(administrator);
+            await Task.Run(() => _administratorDAL.CreateAdministrator(administrator));
         }
 
         public void ManageAppointment(int appointmentId, string action)

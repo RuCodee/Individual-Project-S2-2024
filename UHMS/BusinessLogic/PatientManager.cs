@@ -5,43 +5,64 @@ using System.Text;
 using System.Threading.Tasks;
 using Domain;
 using DataAccessLayer;
+using Microsoft.Extensions.Logging;
 
 namespace BusinessLogic
 {
     public class PatientManager
     {
-        private readonly PatientDAL _patientDAL; // Corrected field type
+        private readonly UserManager _userManager;
+        private readonly ILogger<PatientManager> _logger;
 
-        public PatientManager(PatientDAL patientDAL) // Corrected parameter type
+        public PatientManager(UserManager userManager, ILogger<PatientManager> logger)
         {
-            _patientDAL = patientDAL; // Corrected field assignment
+            _userManager = userManager;
+            _logger = logger;
         }
 
-        public void AddPatient(Patient patient)
+        public async Task<bool> AddPatient(User user)
         {
-            // Implement the logic to add a patient record, possibly involving PatientDAL
-            _patientDAL.CreatePatient(patient);
+            try
+            {
+                // Register the user and let the database trigger handle inserting a patient record
+                int userId = await _userManager.RegisterUserAsync(user);
+                if (userId > 0)
+                {
+
+                    _logger.LogInformation($"Patient registration successful for UserId: {userId}");
+                    return true;
+                }
+                else
+                {
+                    _logger.LogError("User registration failed, unable to create patient.");
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An exception occurred during patient registration.");
+                return false;
+            }
         }
 
         public MedicalRecord? ViewMedicalRecord(int patientId)
         {
-            // view medical record logic
             return null;
         }
 
         public void BookAppointment(Appointment appointment)
         {
-            // logic
+
         }
 
         public void AddAllergy(int patientId, Allergy allergy)
         {
-            // logic
+
         }
 
         public void RemoveAllergy(int patientId, Allergy allergy)
         {
-            // logic
+
         }
     }
 }

@@ -207,11 +207,6 @@ textarea.input-validation-error {
     color: red;
 }
 
-.required-star:after {
-    content: " *";
-    color: red;
-}
-
 /*End Registration page Required red message*/
 
 /* Make hero responsive */
@@ -574,6 +569,101 @@ textarea.input-validation-error {
 
 
 /*Patient Dashboard*/
+/*Dropdown in Dashboard*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+    .dropdown:hover .profile-dashboard-dropdown {
+        display: block;
+        top: calc(100% + 5px);
+    }
+
+/* Dropdown Menu Container Styles */
+.profile-dashboard-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Dropdown Item Styles */
+.main-nav .dropdown .profile-dashboard-dropdown .dropdown-link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+    .main-nav .dropdown .profile-dashboard-dropdown .dropdown-link:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+/* Full Name Style */
+.profile-dashboard-dropdown .full-name {
+    font-weight: bold;
+    padding: 12px 16px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* Dropdown Divider Style */
+.dropdown-divider {
+    height: 2px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e1e1e1;
+}
+
+@media (max-width: 768px) {
+    .main-nav ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-nav li {
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown:hover .profile-dashboard-dropdown,
+    .dropdown:focus-within .profile-dashboard-dropdown {
+        display: block;
+    }
+
+    .profile-dashboard-dropdown .dropdown-link,
+    .profile-dashboard-dropdown .full-name {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .profile-dashboard-dropdown {
+        min-width: 100%;
+    }
+
+    .profile-dashboard-dropdown {
+        right: 0;
+        left: 0;
+        top: calc(100% + 5x); /* Small gap below the toggle element */
+    }
+
+    .main-nav .dropdown .profile-dashboard-dropdown .dropdown-link:hover,
+    .main-nav .dropdown .profile-dashboard-dropdown .dropdown-link:active {
+        background-color: #0056b3;
+        color: white;
+    }
+}
+
+/*END Dropdown dashboard*/
 
 /*Dashboard Image Section*/
 
@@ -609,8 +699,8 @@ textarea.input-validation-error {
 
 .dashboard-header h1 {
     font-size: 3rem; /* Dashboard title */
-    font-weight: bold; /* Text bold */
-    margin: 0; /* Removes default margin */
+    font-weight: bold;
+    margin: 0;
 }
 
 /*End Dashboard image section*/
@@ -772,7 +862,7 @@ textarea.input-validation-error {
 
 .password-management {
     display: flex;
-    align-items: center; /* Centers items vertically, use flex-start to align them at the top */
+    align-items: center;
     justify-content: space-between; /* This separates the text and the button */
     background-color: #fff;
     border-radius: 8px;
@@ -781,8 +871,8 @@ textarea.input-validation-error {
 }
 
     .password-management p {
-        margin: 0; /* Removes any default margin */
-        flex-grow: 1; /* Allows the paragraph to take up the available space */
+        margin: 0;
+        flex-grow: 1;
     }
 
 .change-password-btn {
@@ -800,7 +890,7 @@ textarea.input-validation-error {
 
     .edit-profile-btn:hover,
     .change-password-btn:hover {
-        background-color: hsl(320, 100%, 35%); /* Adjust the lightness value to make it darker */
+        background-color: hsl(320, 100%, 35%);
     }
 
 /* Responsive adjustments */
@@ -812,9 +902,9 @@ textarea.input-validation-error {
     .profile-card,
     .patient-details-container,
     .password-management {
-        width: 100%; /* Ensures the width is full but within the container */
-        box-sizing: border-box; /* Ensures padding is included in the width calculation */
-        margin-bottom: 15px; /* Adjusted margin for spacing */
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
         padding: 15px; /* Adjust padding to be smaller on smaller screens */
     }
 
@@ -858,7 +948,7 @@ textarea.input-validation-error {
 /* Shared styles for the contact detail boxes */
 .contact-details {
     background-color: #fff; /* White background for the detail box */
-    border: 1px solid #ccc; /* Border around the detail box */
+    border: 1px solid #ccc;
     padding: 20px; /* Padding inside the detail box */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     border-radius: 0 0 8px 8px; /* Rounded corners at the bottom only */
@@ -896,7 +986,7 @@ textarea.input-validation-error {
     color: white; /* White text color */
     border: none; /* No border */
     padding: 10px 30px; /* Padding for a wider button */
-    border-radius: 4px; /* Rounded corners */
+    border-radius: 4px;
     cursor: pointer; /* Cursor indicates a clickable item */
     margin-top: auto; /* Push the button to the bottom of the flex container */
     align-self: flex-end; /* Align the button to the end of the flex container */
@@ -906,6 +996,167 @@ textarea.input-validation-error {
         background-color: hsl(320, 100%, 35%); /* Darker pink on hover for interaction feedback */
     }
 
+/*Password Popup*/
+.password-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*END Password Popup*/
     /*End Emergency and Parent Contact section*/
 
     /*End Patient Profile*/
+
+    /*Doctor Page*/
+/*Doctor Table*/
+
+.doctors-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.doctors-table-container {
+    width: 100%;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    overflow-x: auto; /* Allows table to be scrollable on small screens */
+}
+
+.doctors-table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminates space between table cells */
+    margin-top: 20px; /* Space after the section title */
+}
+
+    .doctors-table thead {
+        background-color: #0044cc;
+        color: #ffffff;
+    }
+
+        .doctors-table thead th {
+            padding: 15px;
+            text-align: left;
+        }
+
+    .doctors-table tbody td {
+        padding: 15px;
+        border-bottom: 1px solid #ddd; /* Light grey border for each row */
+        background-color: #ffffff; /* White background for table rows */
+    }
+
+    .doctors-table tbody tr:hover {
+        background-color: #f2f2f2; /* Light grey background on row hover */
+    }
+
+
+@media (max-width: 768px) {
+    .doctors-table thead {
+        display: none; /* Hide the table header on small screens */
+    }
+
+    .doctors-table, .doctors-table tbody, .doctors-table tr, .doctors-table td {
+        display: block; /* Block display for mobile view */
+        width: 100%;
+    }
+
+        .doctors-table tr {
+            margin-bottom: 15px; /* Space between each card-like row */
+        }
+
+        .doctors-table td {
+            text-align: right; /* Align the content to the right */
+            padding-left: 50%; /* Make room for the content */
+            position: relative;
+        }
+
+            .doctors-table td:before {
+                content: attr(data-label); /* Use the data-label attribute for the label */
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+}
+
+.schedule-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .schedule-btn:hover {
+        background-color: #0056b3;
+    }
+    /*END Doctor Table*/
+
+    /*Doctor Filter*/
+
+/* Doctors Filter Form Styles */
+
+.doctors-filter-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px; /* Space between inputs */
+    justify-content: center; /* Centering the form contents */
+    flex-wrap: wrap; /* Wrap onto the next line on small screens */
+}
+
+    .doctors-filter-form input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        max-width: 200px; /* Maximum width of inputs */
+    }
+
+    .doctors-filter-form .filter-btn {
+        padding: 10px 20px;
+        background-color: #0044cc;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .doctors-filter-form .filter-btn:hover {
+            background-color: #002a80;
+        }
+
+@media (max-width: 768px) {
+    .doctors-filter-form {
+        flex-direction: column; /* Stack the inputs vertically on small screens */
+        align-items: center; /* Align inputs to the center */
+    }
+
+        .doctors-filter-form input,
+        .doctors-filter-form .filter-btn {
+            width: calc(100% - 20px); /* Full width minus padding */
+            margin-bottom: 10px; /* Space between the inputs */
+        }
+}
+
+/*END Doctor filter*/
+
+    /*END Doctor Page*/

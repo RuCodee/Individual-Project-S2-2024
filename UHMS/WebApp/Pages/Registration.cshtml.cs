@@ -12,16 +12,18 @@ namespace WebApp.Pages
     public class RegistrationModel : PageModel
     {
         private readonly UserManager _userManager;
+        private readonly PatientManager _patientManager;
         private readonly DoctorManager _doctorManager;
         private readonly AdministratorManager _administratorManager;
         private readonly ILogger<RegistrationModel> _logger;
 
-        public RegistrationModel(UserManager userManager, DoctorManager doctorManager, AdministratorManager administratorManager, ILogger<RegistrationModel> logger)
+        public RegistrationModel(UserManager userManager, PatientManager patientManager, DoctorManager doctorManager, AdministratorManager administratorManager, ILogger<RegistrationModel> logger)
         {
             _userManager = userManager;
+            _patientManager = patientManager;
             _doctorManager = doctorManager;
             _administratorManager = administratorManager;
-            _logger = logger; // Store the injected logger
+            _logger = logger;
         }
 
         [BindProperty]
@@ -49,22 +51,21 @@ namespace WebApp.Pages
             public string? Password { get; set; }
             public Role Role { get; set; }
             public string? DoctorJobId { get; set; }
-            public Specialization Specialization { get; set; } // Add this line if Specialization is part of your form
+            public Specialization? Specialization { get; set; }
             public string? AdministratorJobId { get; set; }
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            // Log the beginning of the registration process
             _logger.LogInformation("Starting user registration process.");
 
             if (!ModelState.IsValid)
             {
-                _logger.LogWarning("Model state is invalid. Returning to registration page with errors.");
+                _logger.LogWarning("Model state is invalid. User data: {Email}", Input.EmailAddress);
                 return Page();
             }
 
-            // Create user instance from form input
+            // Prepare user object for registration
             var user = new User
             {
                 FirstName = Input.FirstName,
@@ -75,15 +76,14 @@ namespace WebApp.Pages
                 SSN = Input.SSN,
                 EmailAddress = Input.EmailAddress,
                 HomeAddress = Input.HomeAddress,
-                Password = Input.Password, // Password should be hashed inside UserManager
+                Password = Input.Password,
                 Role = Input.Role
             };
 
             try
             {
-                // Register the user and get the ID of the newly created user record
                 int userId = await _userManager.RegisterUserAsync(user);
-                _logger.LogInformation($"User registered with ID: {userId}");
+                _logger.LogInformation($"User registered with ID: {userId}, Role: {Input.Role}");
 
                 if (userId <= 0)
                 {
@@ -91,60 +91,32 @@ namespace WebApp.Pages
                     throw new Exception("Registration failed, no user ID returned.");
                 }
 
-                // Handling role-specific data insertion
                 switch (Input.Role)
                 {
                     case Role.Patient:
-                        var patient = new Patient
-                        {
-                            Id = userId
-                            // Initialize other properties if necessary
-                        };
-                        var patientDal = new PatientDAL();
-                        patientDal.CreatePatient(patient);
-                        _logger.LogInformation("Patient record created successfully.");
+                        await _patientManager.AddPatient(new Patient { Id = userId});
+                        _logger.LogInformation("Patient record and medical record created successfully for User ID: {UserId}", userId);
                         break;
 
                     case Role.Doctor:
-                        var doctor = new Doctor
-                        {
-                            Id = userId,
-                            DoctorJobId = Input.DoctorJobId,
-                            Specialization = Input.Specialization
-                            // Initialize other properties if necessary
-                        };
-                        var doctorDal = new DoctorDAL();
-                        doctorDal.CreateDoctor(doctor);
-                        _logger.LogInformation("Doctor record created successfully.");
+                        await _doctorManager.AddDoctor(new Doctor { Id = userId, DoctorJobId = Input.DoctorJobId, Specialization = Input.Specialization.GetValueOrDefault() });
+                        _logger.LogInformation("Doctor record created successfully for User ID: {UserId}", userId);
                         break;
 
                     case Role.Administrator:
-                        var administrator = new Administrator
-                        {
-                            Id = userId,
-                            AdministratorJobId = Input.AdministratorJobId
-                            // Initialize other properties if necessary
-                        };
-                        var adminDal = new AdministratorDAL();
-                        adminDal.CreateAdministrator(administrator);
-                        _logger.LogInformation("Administrator record created successfully.");
-                        break;
-
-                    default:
-                        _logger.LogWarning($"Unhandled user role: {Input.Role}");
+                        await _administratorManager.AddAdministrator(new Administrator { Id = userId, AdministratorJobId = Input.AdministratorJobId });
+                        _logger.LogInformation("Administrator record created successfully for User ID: {UserId}", userId);
                         break;
                 }
 
-                // Redirect to login page after successful registration
                 return RedirectToPage("/Login");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Registration failed.");
-                ModelState.AddModelError("", $"Registration failed: {ex.Message}");
+                _logger.LogError(ex, "Registration process failed for User: {Email}", Input.EmailAddress);
+                ModelState.AddModelError("", "Registration failed: " + ex.Message);
                 return Page();
             }
         }
-
     }
 }

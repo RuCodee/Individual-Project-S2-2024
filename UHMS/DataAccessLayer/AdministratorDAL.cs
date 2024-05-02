@@ -1,4 +1,5 @@
 ﻿using Domain;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,35 @@ namespace DataAccessLayer
 {
     public class AdministratorDAL
     {
-        
-        public void CreateAdministrator(Administrator administrator)
+
+        public int CreateAdministrator(Administrator administrator)
         {
             using (var connection = DBHelper.OpenConnection())
             {
-                // SQL command to insert doctor record
-                // Execute the command
+                var query = @"
+        INSERT INTO Administrators (UserId, AdministratorJobId)
+        VALUES (@UserId, @AdministratorJobId);
+        SELECT CAST(SCOPE_IDENTITY() AS int);";  // Retrieve the new Administrator ID
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserId", administrator.Id);
+                    command.Parameters.AddWithValue("@AdministratorJobId", administrator.AdministratorJobId);
+
+                    var result = command.ExecuteScalar();
+                    if (result != null && int.TryParse(result.ToString(), out int newAdministratorId))
+                    {
+                        administrator.Id = newAdministratorId;
+                        return newAdministratorId;
+                    }
+                    else
+                    {
+                        // Log the issue and handle it without throwing an exception
+                        // Log.Error("Failed to retrieve a valid Administrator ID.");
+                        // Return a default or error indicator ID, for example -1 or 0
+                        return -1;
+                    }
+                }
             }
         }
 

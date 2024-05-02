@@ -1,0 +1,53 @@
+﻿@page
+@model WebApp.Pages.DoctorDashboardModel
+@{
+    Layout = "_Layout";
+}
+
+<header class="header">
+    <div class="logo-container">
+        <img src="~/images/RuMED.png" alt="RuMED Logo" class="logo">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/Doctors">Doctors</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li class="login-button dropdown"><a asp-page="/DoctorProfile" asp-route-UserId="@Model.UserId">Profile</a>
+                <div class="profile-dashboard-dropdown">
+                    <div class="dropdown-item full-name">@Model.User.FirstName @Model.User.LastName</div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item dropdown-link" asp-page="/DoctorProfile" asp-route-UserId="@Model.UserId">Profile</a>
+                    <a class="dropdown-item dropdown-link" asp-page="/DoctorEditProfile" asp-route-UserId="@Model.UserId">Edit Profile</a>
+                    <a class="dropdown-item dropdown-link" asp-page="/Logout">Logout</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="dashboard-header">
+    <div class="dashboard-overlay">
+        <h1>DASHBOARD</h1>
+    </div>
+</section>
+
+<section class="dashboard-tiles">
+    <a href="link" class="tile tile-medical-history">Find Patient</a>
+    <a href="link" class="tile tile-prescribed-medication">Prescribed Medication</a>
+    <a href="link" class="tile tile-surgeries">Medications</a>
+    <a href="link" class="tile tile-vaccines">Appointments</a>
+    <a href="link" class="tile tile-find-doctors"></a>
+    <a href="link" class="tile tile-schedule-appointment"></a>
+    <a href="link" class="tile tile-tips"></a>
+    <a href="https://www.healthsanitas.com/Emergency-Articles" class="tile tile-emergency">Emergency</a>
+</section>
+
+<!--5nd part-->
+<section class="info-section">
+    <div class="info-overlay">
+        <h2>We're determined for your better life.</h2>
+        <p>You can get the care you need 24/7 - be it online or in person.</p>
+        <p>You will be treated by caring specialist doctors.</p>
+    </div>
+</section>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UNIV\\OneDrive\\Desktop\\individual-project-s2-2024-Dev\\individual-project-s2-2024-Dev\\UHMS\\Domain\\Domain.csproj": {}
+    "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UNIV\\OneDrive\\Desktop\\individual-project-s2-2024-Dev\\individual-project-s2-2024-Dev\\UHMS\\Domain\\Domain.csproj": {
+    "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UNIV\\OneDrive\\Desktop\\individual-project-s2-2024-Dev\\individual-project-s2-2024-Dev\\UHMS\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\individual-project-s2-2024-Dev\\individual-project-s2-2024-Dev\\UHMS\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\UNIV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\individual-project-s2-2024-Dev\\individual-project-s2-2024-Dev\\UHMS\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UNIV\\AppData\\Roaming\\NuGet\\NuGet.Config"

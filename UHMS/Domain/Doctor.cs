@@ -10,6 +10,11 @@ namespace Domain
     {
         public string? DoctorJobId { get; set; }
         public Specialization Specialization { get; set; }
+        public string? ClinicCity { get; set; }
+        public string? ClinicAddress { get; set; }
+        public string? ClinicPCode { get; set; }
+        public string? ClinicPhone { get; set; }
+        public string? ClinicEmail { get; set; }
     }
 
     public enum Specialization
@@ -19,6 +24,7 @@ namespace Domain
         GeneralPractitioner = 3,
         Neurologist = 4,
         Cardiologist = 5,
-        Oncologist = 6
+        Oncologist = 6,
+        Other = 999
     }
 }
