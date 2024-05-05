@@ -24,12 +24,12 @@
 </section>
 
 <section class="doctors-section">
-    <form class="doctors-filter-form" action="/path-to-filter-results" method="get">
+    <form class="doctors-filter-form" method="get">
         <input type="text" name="doctorName" placeholder="Doctor Name" aria-label="Filter by Doctor Name">
         <input type="text" name="specialization" placeholder="Specialization" aria-label="Filter by Specialization">
         <input type="text" name="city" placeholder="City" aria-label="Filter by City">
         <input type="text" name="postalCode" placeholder="Postal Code" aria-label="Filter by Postal Code">
-        <button type="submit" class="filter-btn">FILTER</button>
+        <button type="submit" class="filter-btn">Filter</button>
     </form>
 
     <div class="doctors-table-container">
@@ -56,7 +56,7 @@
                         <td data-label="Postal Code">@doctor.ClinicPCode</td>
                         <td data-label="Clinic Address">@doctor.ClinicAddress</td>
                         <td data-label="Phone Number">@doctor.ClinicPhone</td>
-                        <td data-label="Email">@doctor.EmailAddress</td>
+                        <td data-label="Email">@doctor.EmailAddress</td> <!-- Changed from hardcoded to model property -->
                         <td><button class="schedule-btn">Schedule An Appointment</button></td>
                     </tr>
                 }

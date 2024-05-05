@@ -232,6 +232,7 @@ namespace DataAccessLayer
 
                     if (result < 1)
                     {
+                        // No user was deleted, handle as needed
                         throw new Exception("The user deletion operation failed or the user does not exist.");
                     }
                 }

@@ -61,7 +61,7 @@ namespace WebApp.Pages
                     if (await reader.ReadAsync())
                     {
                         var genderId = reader["GenderId"] != DBNull.Value ? (int)reader["GenderId"] : 0;
-                        Gender gender = Gender.Other;
+                        Gender gender = Gender.Other; // Default to 'Other'
                         if (Enum.IsDefined(typeof(Gender), genderId))
                         {
                             gender = (Gender)genderId;

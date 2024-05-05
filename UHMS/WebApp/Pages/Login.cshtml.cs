@@ -37,10 +37,7 @@ namespace WebApp.Pages
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-            
-            new Claim(ClaimTypes.Role, user.Role.ToString())
-
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
                 };
 
                 string role = DetermineUserRole(Username);
@@ -50,7 +47,11 @@ namespace WebApp.Pages
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(identity);
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal,new AuthenticationProperties { IsPersistent = true });
+                await HttpContext.SignInAsync(
+    CookieAuthenticationDefaults.AuthenticationScheme,
+    principal,
+    new AuthenticationProperties { IsPersistent = true }
+);
 
                 return RedirectToProperDashboard(user);
             }

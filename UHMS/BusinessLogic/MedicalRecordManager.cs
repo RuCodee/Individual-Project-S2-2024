@@ -12,7 +12,7 @@ namespace BusinessLogic
     {
         public void CreateMedicalRecord(MedicalRecord medicalRecord)
         {
-
+            // medical record creation logic
         }
 
         public MedicalRecord? GetMedicalRecord(int recordId)
@@ -23,7 +23,12 @@ namespace BusinessLogic
 
         public void UpdateMedicalRecord(int recordId, MedicalRecord updatedRecord)
         {
+            // medical record update logic
+        }
 
+        public void DeleteMedicalRecord(int recordId)
+        {
+            // medical record deletion logic
         }
 
         public List<MedicalRecord> GetPatientMedicalRecords(int patientId)

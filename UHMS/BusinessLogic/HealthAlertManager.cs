@@ -12,7 +12,7 @@ namespace BusinessLogic
     {
         public void GenerateHealthAlert(HealthAlert alert)
         {
-
+            // Implement health alert generation logic
         }
     }
 }

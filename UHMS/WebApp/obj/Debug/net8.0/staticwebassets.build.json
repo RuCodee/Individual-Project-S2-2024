@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "paL9wkLMhlzV14CcuB8wWLzSFDE9GtDN8xtQY8hpX/Y=",
+  "Hash": "XLxsgzTNSO/kuJiL34gwmnrPZ2htb3yxPz9sg3Hteuo=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -205,25 +205,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\twittericon.png"
-    },
-    {
-      "Identity": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\DoctorProfileEdit.js",
-      "SourceId": "WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\",
-      "BasePath": "_content/WebApp",
-      "RelativePath": "js/DoctorProfileEdit.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\DoctorProfileEdit.js"
     },
     {
       "Identity": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\PatientProfileEdit.js",

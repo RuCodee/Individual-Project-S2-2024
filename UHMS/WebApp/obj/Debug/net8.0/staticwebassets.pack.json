@@ -37,10 +37,6 @@
       "PackagePath": "staticwebassets\\images\\twittericon.png"
     },
     {
-      "Id": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\DoctorProfileEdit.js",
-      "PackagePath": "staticwebassets\\js\\DoctorProfileEdit.js"
-    },
-    {
       "Id": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\PatientProfileEdit.js",
       "PackagePath": "staticwebassets\\js\\PatientProfileEdit.js"
     },

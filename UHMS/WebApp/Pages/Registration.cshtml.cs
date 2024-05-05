@@ -23,7 +23,7 @@ namespace WebApp.Pages
             _patientManager = patientManager;
             _doctorManager = doctorManager;
             _administratorManager = administratorManager;
-            _logger = logger;
+            _logger = logger; // Store the injected logger
         }
 
         [BindProperty]
@@ -61,7 +61,7 @@ namespace WebApp.Pages
 
             if (!ModelState.IsValid)
             {
-                _logger.LogWarning("Model state is invalid. User data: {Email}", Input.EmailAddress);
+                _logger.LogWarning("Model state is invalid. User data: {Email}", Input.EmailAddress); // Log email for tracing without sensitive data
                 return Page();
             }
 
@@ -91,6 +91,7 @@ namespace WebApp.Pages
                     throw new Exception("Registration failed, no user ID returned.");
                 }
 
+                // Handle specific roles
                 switch (Input.Role)
                 {
                     case Role.Patient:

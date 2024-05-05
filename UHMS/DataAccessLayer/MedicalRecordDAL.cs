@@ -27,8 +27,14 @@ namespace DataAccessLayer
             // update an existing medical record
         }
 
+        public void DeleteMedicalRecord(int recordId)
+        {
+            // delete a medical record by its ID
+        }
+
         public List<MedicalRecord> GetMedicalRecordsByPatientId(int patientId)
         {
+            // retrieve all medical records for a given patient
             return new List<MedicalRecord>();
         }
     }

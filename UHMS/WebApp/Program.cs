@@ -19,24 +19,13 @@ builder.Services.AddScoped<MedicalRecordDAL>();
 builder.Services.AddScoped<PatientMedicalRecordManager>();
 builder.Services.AddScoped<PatientMedicalRecordDAL>();
 
-
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Login"; // Login page
-        options.AccessDeniedPath = "/Index"; // Access denied
-        options.Cookie.HttpOnly = true;
-        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-        options.SlidingExpiration = true; // Reset the expiration time if the user is active
+        options.LoginPath = "/Login"; //Login page path
+        options.AccessDeniedPath = "/AccessDenied"; // Access denied page path
     });
-
-builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-});
 
 builder.Services.AddRazorPages();
 
@@ -49,24 +38,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.Use(async (context, next) =>
-{
-    context.Response.Headers.Add("Cache-Control", "no-cache, no-store, must-revalidate");
-    context.Response.Headers.Add("Pragma", "no-cache");
-    context.Response.Headers.Add("Expires", "0");
-    await next();
-});
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
-
 app.UseAuthorization();
-
-app.UseSession();
 
 app.MapRazorPages();
 

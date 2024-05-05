@@ -143,24 +143,29 @@
         var adminJobIdDiv = document.getElementById("adminJobIdDiv");
         var adminJobIdInput = document.getElementById("Input_AdministratorJobId");
        
+        // Reset display states
         jobIdDiv.style.display = 'none';
         adminJobIdDiv.style.display = 'none';
         specializationDiv.style.display = 'none';
 
+        // Reset the name attributes to match the model properties
         doctorJobIdInput.name = 'Input.DoctorJobId';
         adminJobIdInput.name = 'Input.AdministratorJobId';
         specializationSelect.name = 'Input.Specialization';
 
+        // Only display job ID and specialization fields for Doctor role
         if (role === 'Doctor') {
             jobIdDiv.style.display = 'block';
             specializationDiv.style.display = 'block';
             doctorJobIdInput.required = true;
             specializationSelect.required = true;
         }
+        // Only display job ID field for Administrator role
         else if (role === 'Administrator') {
-            adminJobIdDiv.style.display = 'block';
-            adminJobIdInput.required = true;
+            adminJobIdDiv.style.display = 'block'; // Show admin job ID field
+            adminJobIdInput.required = true; // Make admin job ID required
         }
+        // Remove the 'required' attribute when other roles are selected
         else {
             doctorJobIdInput.required = false;
             specializationSelect.required = false;
