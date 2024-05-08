@@ -55,5 +55,42 @@ namespace DataAccessLayer
                 }
             }
         }
+
+        // Used for doctors to retrieve patients by their SSN (DesktopApp SearchPatients.cs).
+
+        public string GetPatientNameBySSN(string ssn)
+        {
+            try
+            {
+                using (var connection = DBHelper.OpenConnection())
+                {
+                    var query = @"
+                SELECT u.FirstName, u.LastName
+                FROM Users u
+                INNER JOIN Patients p ON p.UserId = u.UserId
+                WHERE u.SSN = @SSN";
+
+                    using (var command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@SSN", ssn);
+                        using (var reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                string firstName = reader["FirstName"] as string;  // Get the first name from the Users table
+                                string lastName = reader["LastName"] as string;    // Get the last name from the Users table
+                                return $"{firstName} {lastName}".Trim();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching patient name by SSN: {ssn}. Error: {ex.Message}");
+            }
+            return null;
+        }
+        //END SearchPatients *********
     }
 }
