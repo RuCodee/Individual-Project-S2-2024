@@ -130,7 +130,6 @@ C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\DataAccessLayer.pdb
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Domain.pdb
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.csproj.AssemblyReference.cache
-C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.Dashboard.resources
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.Login.resources
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.Properties.Resources.resources
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.csproj.GenerateResource.cache
@@ -144,3 +143,16 @@ C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.pdb
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.genruntimeconfig.cache
 C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\ref\DesktopApp.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.AdministratorDashboard.resources
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.DoctorDashboard.resources
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.PatientProfile.resources
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.PatientSearchBox.resources
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.Prescription.resources
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.SearchPatients.resources
+C:\Users\UNIV\OneDrive\Desktop\IndividualProject\individual-project-s2-2024\UHMS\DesktopApp\obj\Debug\net8.0-windows\DesktopApp.ViewMedicalRecord.resources

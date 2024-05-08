@@ -11,21 +11,25 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class Prescription : Form
+    public partial class PatientSearchBox : Form
     {
         private User currentDoctor;
         private string patientSSN;
 
-        public Prescription(User doctor, string ssn)
+        public PatientSearchBox(User doctor, string ssn)
         {
             InitializeComponent();
             currentDoctor = doctor;
             patientSSN = ssn;
+            btnAccess.Click += BtnAccess_Click;
+            btnAccess.Click -= BtnAccess_Click;
         }
 
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        private void BtnAccess_Click(object sender, EventArgs e)
         {
-
+            PatientProfile patientProfileForm = new PatientProfile(currentDoctor, patientSSN);
+            patientProfileForm.Show();
+            this.Hide();
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using Domain;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,19 +10,17 @@ using System.Windows.Forms;
 
 namespace DesktopApp
 {
-    public partial class Prescription : Form
+    public partial class ViewMedicalRecord : Form
     {
-        private User currentDoctor;
         private string patientSSN;
-
-        public Prescription(User doctor, string ssn)
+        public ViewMedicalRecord(string ssn)
         {
             InitializeComponent();
-            currentDoctor = doctor;
             patientSSN = ssn;
+            LoadMedicalRecords(ssn);
         }
 
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        private void LoadMedicalRecords(string ssn)
         {
 
         }

@@ -32,13 +32,11 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
-            button1 = new Button();
+            btnLogin = new Button();
             panel4 = new Panel();
-            textBox2 = new TextBox();
+            tbPassword = new TextBox();
             panel3 = new Panel();
-            textBox1 = new TextBox();
+            tbJobId = new TextBox();
             label2 = new Label();
             closebtn = new Button();
             panel1.SuspendLayout();
@@ -83,9 +81,7 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(radioButton2);
-            panel2.Controls.Add(radioButton1);
-            panel2.Controls.Add(button1);
+            panel2.Controls.Add(btnLogin);
             panel2.Controls.Add(panel4);
             panel2.Controls.Add(panel3);
             panel2.Controls.Add(label2);
@@ -97,87 +93,66 @@
             panel2.Size = new Size(486, 420);
             panel2.TabIndex = 1;
             // 
-            // radioButton2
+            // btnLogin
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(269, 310);
-            radioButton2.Margin = new Padding(3, 2, 3, 2);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(98, 19);
-            radioButton2.TabIndex = 6;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Administrator";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(128, 310);
-            radioButton1.Margin = new Padding(3, 2, 3, 2);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(75, 19);
-            radioButton1.TabIndex = 5;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Physician";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(41, 128, 185);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(205, 359);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(82, 31);
-            button1.TabIndex = 4;
-            button1.Text = "LOGIN";
-            button1.UseVisualStyleBackColor = false;
+            btnLogin.BackColor = Color.FromArgb(41, 128, 185);
+            btnLogin.FlatStyle = FlatStyle.Flat;
+            btnLogin.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogin.ForeColor = Color.White;
+            btnLogin.Location = new Point(205, 359);
+            btnLogin.Margin = new Padding(3, 2, 3, 2);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(82, 31);
+            btnLogin.TabIndex = 4;
+            btnLogin.Text = "LOGIN";
+            btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // panel4
             // 
             panel4.BackColor = SystemColors.ControlLight;
-            panel4.Controls.Add(textBox2);
+            panel4.Controls.Add(tbPassword);
             panel4.Location = new Point(80, 226);
             panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
             panel4.Size = new Size(340, 39);
             panel4.TabIndex = 3;
             // 
-            // textBox2
+            // tbPassword
             // 
-            textBox2.BackColor = SystemColors.ControlLight;
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(10, 10);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "Password";
-            textBox2.Size = new Size(326, 19);
-            textBox2.TabIndex = 1;
+            tbPassword.BackColor = SystemColors.ControlLight;
+            tbPassword.BorderStyle = BorderStyle.None;
+            tbPassword.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbPassword.Location = new Point(10, 10);
+            tbPassword.Margin = new Padding(3, 2, 3, 2);
+            tbPassword.Name = "tbPassword";
+            tbPassword.PlaceholderText = "Password";
+            tbPassword.Size = new Size(326, 19);
+            tbPassword.TabIndex = 1;
+            tbPassword.TextChanged += tbPassword_TextChanged;
             // 
             // panel3
             // 
             panel3.BackColor = SystemColors.ControlLight;
-            panel3.Controls.Add(textBox1);
+            panel3.Controls.Add(tbJobId);
             panel3.Location = new Point(80, 172);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
             panel3.Size = new Size(340, 39);
             panel3.TabIndex = 2;
             // 
-            // textBox1
+            // tbJobId
             // 
-            textBox1.BackColor = SystemColors.ControlLight;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(10, 10);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Job ID";
-            textBox1.Size = new Size(326, 19);
-            textBox1.TabIndex = 0;
+            tbJobId.BackColor = SystemColors.ControlLight;
+            tbJobId.BorderStyle = BorderStyle.None;
+            tbJobId.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbJobId.Location = new Point(10, 10);
+            tbJobId.Margin = new Padding(3, 2, 3, 2);
+            tbJobId.Name = "tbJobId";
+            tbJobId.PlaceholderText = "Job ID";
+            tbJobId.Size = new Size(326, 19);
+            tbJobId.TabIndex = 0;
+            tbJobId.TextChanged += tbJobId_TextChanged;
             // 
             // label2
             // 
@@ -239,12 +214,10 @@
         private Label label1;
         private Button closebtn;
         private Label label2;
-        private Button button1;
+        private Button btnLogin;
         private Panel panel4;
         private Panel panel3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox tbJobId;
+        private TextBox tbPassword;
     }
 }
