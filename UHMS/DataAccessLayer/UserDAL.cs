@@ -14,52 +14,63 @@ namespace DataAccessLayer
 
         public async Task<int> RegisterUserAsync(User user)
         {
-            using (var connection = DBHelper.OpenConnection())
+            try
             {
-                // Check if a user with the same SSN or EmailAddress already exists
-                string checkUserSql = @"
+                using (var connection = DBHelper.OpenConnection())
+                {
+                    // Check if a user with the same SSN or EmailAddress already exists
+                    string checkUserSql = @"
                     SELECT COUNT(1)
                     FROM Users
                     WHERE SSN = @SSN OR EmailAddress = @EmailAddress";
 
-                using (var checkCommand = new SqlCommand(checkUserSql, connection))
-                {
-                    checkCommand.Parameters.AddWithValue("@SSN", user.SSN);
-                    checkCommand.Parameters.AddWithValue("@EmailAddress", user.EmailAddress);
-
-                    object result = await checkCommand.ExecuteScalarAsync();
-                    bool exists = result as int? > 0;
-
-                    if (exists)
+                    using (var checkCommand = new SqlCommand(checkUserSql, connection))
                     {
-                        // A user with this SSN or EmailAddress already exists in the system
-                        throw new Exception("A user with this SSN or EmailAddress already exists.");
+                        checkCommand.Parameters.AddWithValue("@SSN", user.SSN);
+                        checkCommand.Parameters.AddWithValue("@EmailAddress", user.EmailAddress);
+
+                        object result = await checkCommand.ExecuteScalarAsync();
+                        bool exists = (int)result > 0;
+
+                        if (exists)
+                        {
+                            // A user with this SSN or EmailAddress already exists in the system
+                            throw new Exception("A user with this SSN or EmailAddress already exists.");
+                        }
+                    }
+
+                    // If the user does not exist, proceed to register the new user
+                    string insertUserSql = @"
+                    INSERT INTO Users (FirstName, LastName, DateOfBirth, GenderId, TelephoneNumber, SSN, EmailAddress, HomeAddress, Password, RoleId)
+                    VALUES (@FirstName, @LastName, @DateOfBirth, @GenderId, @TelephoneNumber, @SSN, @EmailAddress, @HomeAddress, @Password, @RoleId);
+                    SELECT CAST(SCOPE_IDENTITY() AS int);";
+
+                    using (var command = new SqlCommand(insertUserSql, connection))
+                    {
+                        command.Parameters.AddWithValue("@FirstName", user.FirstName);
+                        command.Parameters.AddWithValue("@LastName", user.LastName);
+                        command.Parameters.AddWithValue("@DateOfBirth", user.DateOfBirth);
+                        command.Parameters.AddWithValue("@GenderId", (int)user.Gender);
+                        command.Parameters.AddWithValue("@TelephoneNumber", user.TelephoneNumber ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@SSN", user.SSN);
+                        command.Parameters.AddWithValue("@EmailAddress", user.EmailAddress);
+                        command.Parameters.AddWithValue("@HomeAddress", user.HomeAddress ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@Password", user.Password);
+                        command.Parameters.AddWithValue("@RoleId", (int)user.Role);
+
+                        // Execute the command and get the new UserId
+                        var result = await command.ExecuteScalarAsync();
+                        return (int)result; // Return the new UserId
                     }
                 }
-
-                // If the user does not exist, proceed to register the new user
-                string insertUserSql = @"
-                INSERT INTO Users (FirstName, LastName, DateOfBirth, GenderId, TelephoneNumber, SSN, EmailAddress, HomeAddress, Password, RoleId)
-                VALUES (@FirstName, @LastName, @DateOfBirth, @GenderId, @TelephoneNumber, @SSN, @EmailAddress, @HomeAddress, @Password, @RoleId);
-                SELECT CAST(SCOPE_IDENTITY() AS int);";
-
-                using (var command = new SqlCommand(insertUserSql, connection))
-                {
-                    command.Parameters.AddWithValue("@FirstName", user.FirstName);
-                    command.Parameters.AddWithValue("@LastName", user.LastName);
-                    command.Parameters.AddWithValue("@DateOfBirth", user.DateOfBirth);
-                    command.Parameters.AddWithValue("@GenderId", (int)user.Gender);
-                    command.Parameters.AddWithValue("@TelephoneNumber", user.TelephoneNumber ?? (object)DBNull.Value);
-                    command.Parameters.AddWithValue("@SSN", user.SSN);
-                    command.Parameters.AddWithValue("@EmailAddress", user.EmailAddress);
-                    command.Parameters.AddWithValue("@HomeAddress", user.HomeAddress ?? (object)DBNull.Value);
-                    command.Parameters.AddWithValue("@Password", user.Password);
-                    command.Parameters.AddWithValue("@RoleId", (int)user.Role);
-
-                    // Execute the command and get the new UserId
-                    var result = await command.ExecuteScalarAsync();
-                    return (int)result; // Return the new UserId
-                }
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Database error occurred during user registration.", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred during user registration.", ex);
             }
         }
 
@@ -178,7 +189,7 @@ namespace DataAccessLayer
             }
         }
 
-
+        //WebApp Dashboards (Doctor/Patient/Administrator)
         public async Task<User?> GetUserById(int userId)
         {
             using (var connection = DBHelper.OpenConnection())
@@ -232,7 +243,6 @@ namespace DataAccessLayer
 
                     if (result < 1)
                     {
-                        // No user was deleted, handle as needed
                         throw new Exception("The user deletion operation failed or the user does not exist.");
                     }
                 }

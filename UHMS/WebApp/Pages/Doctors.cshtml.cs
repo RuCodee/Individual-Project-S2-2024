@@ -13,7 +13,7 @@ namespace WebApp.Pages
 
         public async Task OnGetAsync(string doctorName, string specialization, string city, string postalCode)
         {
-            Doctors = new List<Doctor>(); // Ensure the list is initialized
+            Doctors = new List<Doctor>();
 
             try
             {

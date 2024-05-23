@@ -32,32 +32,38 @@ namespace WebApp.Pages
                 return Page();
             }
 
-            User user = await _userManager.LoginAsync(Username, Password);
-            if (user != null)
+            try
             {
-                var claims = new List<Claim>
+                User user = await _userManager.LoginAsync(Username, Password);
+                if (user != null)
                 {
-                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+                    var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                    new Claim(ClaimTypes.Role, user.Role.ToString()),
+                    new Claim("FirstName", user.FirstName),
+                    new Claim("LastName", user.LastName)
                 };
 
-                string role = DetermineUserRole(Username);
+                    string role = DetermineUserRole(Username);
+                    claims.Add(new Claim(ClaimTypes.Role, role));
 
-                claims.Add(new Claim(ClaimTypes.Role, role));
+                    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var principal = new ClaimsPrincipal(identity);
 
-                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                var principal = new ClaimsPrincipal(identity);
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties { IsPersistent = true });
 
-                await HttpContext.SignInAsync(
-    CookieAuthenticationDefaults.AuthenticationScheme,
-    principal,
-    new AuthenticationProperties { IsPersistent = true }
-);
-
-                return RedirectToProperDashboard(user);
+                    return RedirectToProperDashboard(user);
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "Your Username or password is incorrect.";
+                    return Page();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                TempData["ErrorMessage"] = "An error occurred while trying to log in.";
                 return Page();
             }
         }

@@ -1,4 +1,5 @@
 using DataAccessLayer;
+using DataAccessLayer.UnitTestInterfaces;
 using Domain;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,14 +10,14 @@ namespace WebApp.Pages
     [Authorize(Roles = "Doctor")]
     public class DoctorDashboardModel : PageModel
     {
-        private readonly UserDAL _userDAL;
+        private readonly IUserDAL _userDAL;
 
         public User User { get; set; }
 
         [BindProperty(SupportsGet = true)]
         public int UserId { get; set; }
 
-        public DoctorDashboardModel(UserDAL userDAL)
+        public DoctorDashboardModel(IUserDAL userDAL)
         {
             _userDAL = userDAL;
         }

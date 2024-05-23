@@ -2,7 +2,7 @@
     initProfileEdit();
     initPasswordChange();
     initEmergencyContactEdit();
-    initParentContactEdit();  // Proper initialization
+    initParentContactEdit();
 });
 
 function initProfileEdit() {

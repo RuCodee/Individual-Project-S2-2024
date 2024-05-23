@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Domain;
 using DataAccessLayer;
@@ -34,7 +32,13 @@ namespace BusinessLogic
                     throw new ArgumentException("Password cannot be null or empty.");
                 }
 
-                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+                //generate a salt
+                string salt = BCrypt.Net.BCrypt.GenerateSalt();
+                //hash with the salt
+                string hashedPassword = BCrypt.Net.BCrypt.HashPassword(user.Password + salt);
+                //combine the salt and hashed
+                user.Password = salt + ":" + hashedPassword;
+
                 _logger.LogInformation($"Attempting to register user: {user.EmailAddress}");
 
                 int userId = await _userDAL.RegisterUserAsync(user);
@@ -68,10 +72,32 @@ namespace BusinessLogic
 
                 User user = await _userDAL.GetUserByIdentifierAsync(identifier);
 
-                if (user != null && BCrypt.Net.BCrypt.Verify(password, user.Password))
+                if (user != null)
                 {
-                    _logger.LogInformation($"User logged in successfully: {user.Id}");
-                    return user;
+                    //split the stored password into salt and hash
+                    var parts = user.Password.Split(':');
+                    if (parts.Length != 2)
+                    {
+                        _logger.LogError("Stored password format is invalid.");
+                        throw new Exception("Stored password format is invalid.");
+                    }
+
+                    var salt = parts[0];
+                    var storedHash = parts[1];
+
+                    //verify the provided password with the stored hash
+                    bool isPasswordMatch = BCrypt.Net.BCrypt.Verify(password + salt, storedHash);
+
+                    if (isPasswordMatch)
+                    {
+                        _logger.LogInformation($"User logged in successfully: {user.Id}");
+                        return user;
+                    }
+                    else
+                    {
+                        _logger.LogWarning($"Login failed for user: {identifier}");
+                        return null;
+                    }
                 }
                 else
                 {
@@ -123,17 +149,23 @@ namespace BusinessLogic
 
         public async Task UpdateUserPassword(int userId, string newPassword)
         {
+            //generate a salt
+            string salt = BCrypt.Net.BCrypt.GenerateSalt();
+            //hash the new password with the salt
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(newPassword + salt);
+            string passwordHash = salt + ":" + hashedPassword;
+
             using (var connection = DBHelper.OpenConnection())
             {
                 string updatePasswordSql = @"
-            UPDATE Users
-            SET Password = @NewPassword
-            WHERE UserId = @UserId";
+                    UPDATE Users
+                    SET Password = @NewPassword
+                    WHERE UserId = @UserId";
 
                 using (var command = new SqlCommand(updatePasswordSql, connection))
                 {
                     command.Parameters.AddWithValue("@UserId", userId);
-                    command.Parameters.AddWithValue("@NewPassword", newPassword);
+                    command.Parameters.AddWithValue("@NewPassword", passwordHash);
                     await command.ExecuteNonQueryAsync();
                 }
             }

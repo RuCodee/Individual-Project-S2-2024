@@ -6,6 +6,7 @@ using BusinessLogic;
 using Domain;
 using DataAccessLayer;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.Data.SqlClient;
 
 namespace WebApp.Pages
 {
@@ -23,7 +24,7 @@ namespace WebApp.Pages
             _patientManager = patientManager;
             _doctorManager = doctorManager;
             _administratorManager = administratorManager;
-            _logger = logger; // Store the injected logger
+            _logger = logger;
         }
 
         [BindProperty]
@@ -48,6 +49,7 @@ namespace WebApp.Pages
             public string? SSN { get; set; }
             public string? EmailAddress { get; set; }
             public string? HomeAddress { get; set; }
+            [Required(ErrorMessage = "Password is required.")]
             public string? Password { get; set; }
             public Role Role { get; set; }
             public string? DoctorJobId { get; set; }
@@ -61,7 +63,7 @@ namespace WebApp.Pages
 
             if (!ModelState.IsValid)
             {
-                _logger.LogWarning("Model state is invalid. User data: {Email}", Input.EmailAddress); // Log email for tracing without sensitive data
+                _logger.LogWarning("Model state is invalid. User data: {Email}", Input.EmailAddress);
                 return Page();
             }
 
@@ -91,11 +93,10 @@ namespace WebApp.Pages
                     throw new Exception("Registration failed, no user ID returned.");
                 }
 
-                // Handle specific roles
                 switch (Input.Role)
                 {
                     case Role.Patient:
-                        await _patientManager.AddPatient(new Patient { Id = userId});
+                        await _patientManager.AddPatient(new Patient { Id = userId });
                         _logger.LogInformation("Patient record and medical record created successfully for User ID: {UserId}", userId);
                         break;
 
@@ -111,6 +112,12 @@ namespace WebApp.Pages
                 }
 
                 return RedirectToPage("/Login");
+            }
+            catch (SqlException ex)
+            {
+                _logger.LogError(ex, "Database error occurred during registration for User: {Email}", Input.EmailAddress);
+                ModelState.AddModelError("", "Registration failed due to a database error.");
+                return Page();
             }
             catch (Exception ex)
             {

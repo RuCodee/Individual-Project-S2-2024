@@ -517,10 +517,11 @@ textarea.input-validation-error {
     .login-form button {
         margin-top: 20px;
         padding: 10px 15px;
-        background-color: #007bff; 
+        background-color: #007bff;
         color: white;
+        font-size: 18px;
         border: none;
-        border-radius: 4px; 
+        border-radius: 4px;
         cursor: pointer;
     }
 
@@ -528,6 +529,17 @@ textarea.input-validation-error {
             background-color: #0056b3; /*dark blue for hover*/
         }
 
+@media (min-width: 768px) {
+    .login-info, .login-form {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 767px) {
+    .login-info, .login-form {
+        flex-basis: 100%;
+    }
+}
 /*End Login Page*/
 
 /*Registration*/

@@ -28,9 +28,6 @@ namespace BusinessLogic
                 int userId = await _userManager.RegisterUserAsync(user);
                 if (userId > 0)
                 {
-                    // If additional patient-specific setup is needed, do it here.
-                    // For example, initializing medical records, sending welcome emails, etc.
-                    // ...
 
                     _logger.LogInformation($"Patient registration successful for UserId: {userId}");
                     return true;
@@ -50,7 +47,6 @@ namespace BusinessLogic
 
         public MedicalRecord? ViewMedicalRecord(int patientId)
         {
-            // view medical record logic
             return null;
         }
 

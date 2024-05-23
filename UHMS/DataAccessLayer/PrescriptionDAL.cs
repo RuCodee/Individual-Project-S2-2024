@@ -18,7 +18,7 @@ namespace DataAccessLayer
         public Prescription GetPrescriptionById(int prescriptionId)
         {
             // retrieve a prescription by its ID
-            return null; // placeholder return
+            return null;
         }
 
         public void UpdatePrescription(Prescription prescription)
@@ -34,7 +34,7 @@ namespace DataAccessLayer
         public List<Prescription> GetPrescriptionsByPatientId(int patientId)
         {
             // retrieve all prescriptions for a given patient
-            return new List<Prescription>(); // placeholder return
+            return new List<Prescription>();
         }
     }
 }

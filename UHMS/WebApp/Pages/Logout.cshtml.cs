@@ -8,17 +8,11 @@ namespace WebApp.Pages
 {
     public class LogoutModel : PageModel
     {
-        public async Task OnGetAsync()
+        public async Task<IActionResult> OnGetAsync()
         {
-
-            var prop = new AuthenticationProperties()
-            {
-                RedirectUri = "/Index"
-            };
-            // Clear the existing external cookie
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme, prop);
-
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            HttpContext.Session.Clear();
+            return RedirectToPage("/Login");
         }
     }
 }
-//check if mirroring on git is working
