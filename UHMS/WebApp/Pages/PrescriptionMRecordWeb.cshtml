@@ -1,0 +1,88 @@
+﻿@page
+@model WebApp.Pages.PrescriptionMRecordWebModel
+@using WebApp.Extensions
+@{
+    Layout = "_Layout";
+}
+
+<header class="header">
+    <div class="logo-container">
+        <img src="~/images/RuMED.png" alt="RuMED Logo" class="logo">
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="/Doctors">Doctors</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li class="login-button dropdown">
+                <a asp-page="/PatientProfile" asp-route-UserId="@Model.UserId">Profile</a>
+                <div class="profile-dashboard-dropdown">
+                    <div class="dropdown-item full-name">@User.GetFirstName() @User.GetLastName()</div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item dropdown-link" asp-page="/PatientProfile" asp-route-UserId="@Model.UserId">Profile</a>
+                    <a class="dropdown-item dropdown-link" asp-page="/PatientEditProfile" asp-route-UserId="@Model.UserId">Edit Profile</a>
+                    <a class="dropdown-item dropdown-link" asp-page="/Logout">Logout</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="dashboard-header">
+    <div class="dashboard-overlay">
+        <h1>Medical History</h1>
+    </div>
+</section>
+
+<section class="doctors-section">
+    <form class="doctors-filter-form" method="get">
+        <input type="hidden" name="UserId" value="@Model.UserId" />
+        <input type="text" name="VisitDate" placeholder="Visit Date or Year" aria-label="Filter by Visit Date" value="@Model.VisitDate">
+        <input type="text" name="VisitType" placeholder="Visit Type" aria-label="Filter by Visit Type" value="@Model.VisitType">
+        <input type="text" name="DoctorName" placeholder="Doctor Name" aria-label="Filter by Doctor Name" value="@Model.DoctorName">
+        <input type="text" name="Symptoms" placeholder="Symptoms" aria-label="Filter by Symptoms" value="@Model.Symptoms">
+        <input type="text" name="Diagnosis" placeholder="Diagnosis" aria-label="Filter by Diagnosis" value="@Model.Diagnosis">
+        <button type="submit" class="filter-btn">Filter</button>
+    </form>
+
+    <div class="doctors-table-container">
+        <table class="doctors-table">
+            <thead>
+                <tr>
+                    <th>Visit Date</th>
+                    <th>Visit Type</th>
+                    <th>Doctor Name</th>
+                    <th>Symptoms</th>
+                    <th>Diagnosis</th>
+                    <th>Prescribed Medicines</th>
+                    <th>Medication Notes</th>
+                    <th>General Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var record in Model.MedicalRecords)
+                {
+                    <tr>
+                        <td data-label="Visit Date">@record.VisitDate.ToShortDateString()</td>
+                        <td data-label="Visit Type">@record.VisitType</td>
+                        <td data-label="Doctor Name">@record.DoctorName</td>
+                        <td data-label="Symptoms">@record.Symptoms</td>
+                        <td data-label="Diagnosis">@record.Diagnosis</td>
+                        <td data-label="Prescribed Medicines">@record.PrescribedMedicines</td>
+                        <td data-label="Medication Notes">@record.MedicationNotes</td>
+                        <td data-label="General Notes">@record.GeneralNotes</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!--5nd part-->
+<section class="info-section">
+    <div class="info-overlay">
+        <h2>We're determined for your better life.</h2>
+        <p>You can get the care you need 24/7 - be it online or in person.</p>
+        <p>You will be treated by caring specialist doctors.</p>
+    </div>
+</section>

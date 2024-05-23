@@ -3,200 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\patientsearchbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\patientsearchbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|c:\\users\\univ\\onedrive\\desktop\\individualproject\\individual-project-s2-2024\\uhms\\desktopapp\\patientsearchbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\patientsearchbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\searchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\searchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\doctordashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\doctordashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\administratordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\administratordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\viewmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\viewmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\viewmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\viewmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|c:\\users\\univ\\onedrive\\desktop\\individualproject\\individual-project-s2-2024\\uhms\\desktopapp\\patientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\patientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\patientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\patientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\administratordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\administratordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\searchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\searchpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\administratordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\administratordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\patientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\patientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|c:\\users\\univ\\onedrive\\desktop\\individualproject\\individual-project-s2-2024\\uhms\\webapp\\pages\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\desktopapp\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C1348F3-B8F1-45E2-A622-6112A390EA58}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\doctordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\doctors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\doctors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\administratordashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\administratordashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\unittestinterfaces\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\unittestinterfaces\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|c:\\users\\univ\\onedrive\\desktop\\individualproject\\individual-project-s2-2024\\uhms\\webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\administratordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\administratordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\administratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\administratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\doctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\doctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\doctordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\doctordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\patientprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\patientprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\wwwroot\\js\\patientprofileedit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\patientprofileedit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|c:\\users\\univ\\onedrive\\desktop\\individualproject\\individual-project-s2-2024\\uhms\\webapp\\pages\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\patientprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\patientprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\prescriptionmrecordweb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\prescriptionmrecordweb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\registration.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\medicalrecorddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecorddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\medicalrecordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -207,48 +55,72 @@
       "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\patientmedicalrecorddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\patientmedicalrecorddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\medicalrecorddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecorddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\patientmedicalrecordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\patientmedicalrecordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\patientmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\patientmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\patientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\patientdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\patientdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\patientdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD6A9F2-67F0-4E37-A4F6-E2F6F38338A3}|Domain\\Domain.csproj|solutionrelative:domain\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\doctormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\dataaccesslayer\\doctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\doctordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\patientprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\patientprofile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\patientdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\patientdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\healthalertmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\healthalertmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\patientdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\patientdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\prescriptionmrecordweb.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\prescriptionmrecordweb.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\doctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\pages\\doctors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\doctors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025F1984-334B-43EB-80FB-031EF8042D8D}|UHMSApp\\UHMSApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\uhmsapp\\usermanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{025F1984-334B-43EB-80FB-031EF8042D8D}|UHMSApp\\UHMSApp.csproj|solutionrelative:uhmsapp\\usermanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\webapp\\wwwroot\\js\\patientprofileedit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE408D32-9CF9-4051-8708-45C1AC14ADC6}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\js\\patientprofileedit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{025F1984-334B-43EB-80FB-031EF8042D8D}|UHMSApp\\UHMSApp.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\uhmsapp\\fakes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{025F1984-334B-43EB-80FB-031EF8042D8D}|UHMSApp\\UHMSApp.csproj|solutionrelative:uhmsapp\\fakes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\univ\\onedrive\\desktop\\individualproject\\individual-project-s2-2024\\uhms\\dataaccesslayer\\unittestinterfaces\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B678F6-4232-4F6D-8678-87A2546DD00F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\unittestinterfaces\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\businesslogic\\administratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3994FAA1-91B1-49F1-9442-6B66FBB98077}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\administratormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -258,757 +130,397 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ViewMedicalRecord.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\ViewMedicalRecord.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\ViewMedicalRecord.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\ViewMedicalRecord.cs",
-              "RelativeToolTip": "DesktopApp\\ViewMedicalRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T22:08:18.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViewMedicalRecord.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\ViewMedicalRecord.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\ViewMedicalRecord.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\ViewMedicalRecord.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\ViewMedicalRecord.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T22:03:40.896Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Medication.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Medication.cs",
-              "RelativeDocumentMoniker": "Domain\\Medication.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Medication.cs",
-              "RelativeToolTip": "Domain\\Medication.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T13:10:00.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Login.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\Login.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Login.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T13:44:38.447Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Login.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\Login.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Login.cs",
-              "RelativeToolTip": "DesktopApp\\Login.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T12:22:02.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdministratorDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\AdministratorDashboard.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\AdministratorDashboard.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\AdministratorDashboard.cs",
-              "RelativeToolTip": "DesktopApp\\AdministratorDashboard.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T13:26:31.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdministratorDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\AdministratorDashboard.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\AdministratorDashboard.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\AdministratorDashboard.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\AdministratorDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T12:16:20.733Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Prescription.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Prescription.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\Prescription.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Prescription.cs",
-              "RelativeToolTip": "DesktopApp\\Prescription.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:24:04.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Prescription.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Prescription.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\Prescription.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Prescription.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\Prescription.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T20:14:48.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Program.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\Program.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\Program.cs",
-              "RelativeToolTip": "DesktopApp\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T20:15:51.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PatientProfile.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientProfile.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\PatientProfile.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientProfile.cs",
-              "RelativeToolTip": "DesktopApp\\PatientProfile.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAjwBoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T21:54:33.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PatientProfile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientProfile.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\PatientProfile.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientProfile.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\PatientProfile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T22:11:35.013Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PatientSearchBox.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientSearchBox.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\PatientSearchBox.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientSearchBox.cs",
-              "RelativeToolTip": "DesktopApp\\PatientSearchBox.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T21:38:52.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PatientSearchBox.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientSearchBox.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\PatientSearchBox.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\PatientSearchBox.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\PatientSearchBox.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T22:44:42.481Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SearchPatients.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\SearchPatients.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\SearchPatients.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\SearchPatients.cs",
-              "RelativeToolTip": "DesktopApp\\SearchPatients.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:31:16.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SearchPatients.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\SearchPatients.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\SearchPatients.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\SearchPatients.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\SearchPatients.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T20:55:53.079Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DoctorDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\DoctorDashboard.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\DoctorDashboard.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\DoctorDashboard.cs",
-              "RelativeToolTip": "DesktopApp\\DoctorDashboard.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAIwCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T21:05:18.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DoctorDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\DoctorDashboard.cs",
-              "RelativeDocumentMoniker": "DesktopApp\\DoctorDashboard.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DesktopApp\\DoctorDashboard.cs [Design]",
-              "RelativeToolTip": "DesktopApp\\DoctorDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T18:17:08.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IUserDAL.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:05:44.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AdministratorDashboard.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\AdministratorDashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\AdministratorDashboard.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\AdministratorDashboard.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\AdministratorDashboard.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:05:35.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdministratorDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\AdministratorDashboard.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\AdministratorDashboard.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\AdministratorDashboard.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\AdministratorDashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T14:08:42.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoctorDashboard.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\DoctorDashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\DoctorDashboard.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\DoctorDashboard.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\DoctorDashboard.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:05:31.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DoctorDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\DoctorDashboard.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\DoctorDashboard.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\DoctorDashboard.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\DoctorDashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T14:08:20.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Program.cs",
-              "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:42:53.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DBHelper.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\DBHelper.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DBHelper.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\DBHelper.cs",
-              "RelativeToolTip": "DataAccessLayer\\DBHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T11:51:43.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Fakes.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\UHMSApp\\Fakes.cs",
-              "RelativeDocumentMoniker": "UHMSApp\\Fakes.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\UHMSApp\\Fakes.cs",
-              "RelativeToolTip": "UHMSApp\\Fakes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:55:36.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\Login.cshtml.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAIwFcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T21:09:23.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Login.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Login.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAADwvxwAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T20:53:49.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "UserManagerTests.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\UHMSApp\\UserManagerTests.cs",
-              "RelativeDocumentMoniker": "UHMSApp\\UserManagerTests.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\UHMSApp\\UserManagerTests.cs",
-              "RelativeToolTip": "UHMSApp\\UserManagerTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:50:50.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Logout.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\Logout.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T21:26:42.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Logout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Logout.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T21:24:26.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T08:05:20.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Doctors.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Doctors.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\Doctors.cshtml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:23:43.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Doctors.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Doctors.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Doctors.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T08:10:17.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "HealthAlertManager.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\HealthAlertManager.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\HealthAlertManager.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\HealthAlertManager.cs",
-              "RelativeToolTip": "BusinessLogic\\HealthAlertManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T08:46:26.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "PatientProfileEdit.js",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\PatientProfileEdit.js",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\PatientProfileEdit.js",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\PatientProfileEdit.js",
-              "RelativeToolTip": "WebApp\\wwwroot\\js\\PatientProfileEdit.js",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-23T21:10:55.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "PatientProfile.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientProfile.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\PatientProfile.cshtml.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:07:43.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "PatientProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientProfile.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\PatientProfile.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T20:07:38.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "PatientDashboard.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientDashboard.cshtml.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\PatientDashboard.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:14:41.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "PatientDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientDashboard.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\PatientDashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T13:37:12.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T11:19:26.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\css\\site.css",
               "RelativeToolTip": "WebApp\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAACIEAAAAAAAAAADwv5QDAAAAAAAA",
+              "ViewState": "AQIAAPIBAAAAAAAAAAAgwP4BAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-20T11:00:11.493Z"
+              "WhenOpened": "2024-05-22T20:28:05.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 0,
               "Title": "Registration.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Registration.cshtml.cs",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Registration.cshtml.cs",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Registration.cshtml.cs",
               "RelativeToolTip": "WebApp\\Pages\\Registration.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAdAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAASwFEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:56:21.833Z"
+              "WhenOpened": "2024-05-22T19:19:16.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 6,
               "Title": "Registration.cshtml",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Registration.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Pages\\Registration.cshtml",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Registration.cshtml",
               "RelativeToolTip": "WebApp\\Pages\\Registration.cshtml",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAAJAAAAAHAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T10:56:18.89Z"
+              "WhenOpened": "2024-05-22T19:19:13.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "MedicalRecordDAL.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\MedicalRecordDAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\MedicalRecordDAL.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\MedicalRecordDAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\MedicalRecordDAL.cs",
-              "ViewState": "AQIAAAAAAACAZmZmZqYowB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:54:25.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "MedicalRecordManager.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\MedicalRecordManager.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\MedicalRecordManager.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\MedicalRecordManager.cs",
-              "RelativeToolTip": "BusinessLogic\\MedicalRecordManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:42.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "MedicalRecord.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\MedicalRecord.cs",
-              "RelativeDocumentMoniker": "Domain\\MedicalRecord.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\MedicalRecord.cs",
-              "RelativeToolTip": "Domain\\MedicalRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:35.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "PatientMedicalRecordDAL.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\PatientMedicalRecordDAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\PatientMedicalRecordDAL.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\PatientMedicalRecordDAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\PatientMedicalRecordDAL.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T10:23:35.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "PatientMedicalRecordManager.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\PatientMedicalRecordManager.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\PatientMedicalRecordManager.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\PatientMedicalRecordManager.cs",
-              "RelativeToolTip": "BusinessLogic\\PatientMedicalRecordManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T10:23:50.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "PatientMedicalRecord.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\PatientMedicalRecord.cs",
-              "RelativeDocumentMoniker": "Domain\\PatientMedicalRecord.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\PatientMedicalRecord.cs",
-              "RelativeToolTip": "Domain\\PatientMedicalRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:53:12.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AdministratorDAL.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\AdministratorDAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\AdministratorDAL.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\AdministratorDAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\AdministratorDAL.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAIwDEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:26.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 29,
               "Title": "AdministratorManager.cs",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\AdministratorManager.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\AdministratorManager.cs",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\AdministratorManager.cs",
               "RelativeToolTip": "BusinessLogic\\AdministratorManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAAAUAAADAmpmZmZkewAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:25.433Z"
+              "WhenOpened": "2024-05-21T09:16:40.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Administrator.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Administrator.cs",
-              "RelativeDocumentMoniker": "Domain\\Administrator.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Administrator.cs",
-              "RelativeToolTip": "Domain\\Administrator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 28,
+              "Title": "IUserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
+              "RelativeToolTip": "DataAccessLayer\\UnitTestInterfaces\\IUserDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:23.419Z"
+              "WhenOpened": "2024-05-21T07:22:43.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DoctorDAL.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\DoctorDAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DoctorDAL.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\DoctorDAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\DoctorDAL.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:20.214Z"
+              "DocumentIndex": 27,
+              "Title": "PatientProfileEdit.js",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\PatientProfileEdit.js",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\js\\PatientProfileEdit.js",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\wwwroot\\js\\PatientProfileEdit.js",
+              "RelativeToolTip": "WebApp\\wwwroot\\js\\PatientProfileEdit.js",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAgwKwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-20T20:20:11.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "DoctorManager.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\DoctorManager.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\DoctorManager.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\DoctorManager.cs",
-              "RelativeToolTip": "BusinessLogic\\DoctorManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "DocumentIndex": 26,
+              "Title": "Doctors.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\Doctors.cshtml.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\Doctors.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:16.97Z"
+              "WhenOpened": "2024-05-20T16:21:00.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Doctor.cs",
-              "RelativeDocumentMoniker": "Domain\\Doctor.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Doctor.cs",
-              "RelativeToolTip": "Domain\\Doctor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:12.696Z"
+              "DocumentIndex": 25,
+              "Title": "Doctors.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\Doctors.cshtml",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Doctors.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\Doctors.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T16:20:56.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "PatientDAL.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\PatientDAL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\PatientDAL.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\PatientDAL.cs",
-              "RelativeToolTip": "DataAccessLayer\\PatientDAL.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAD0AAAAJAAAA",
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "WebApp\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "WebApp\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:06.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "PatientManager.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\PatientManager.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\PatientManager.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\PatientManager.cs",
-              "RelativeToolTip": "BusinessLogic\\PatientManager.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwEQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:04.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Patient.cs",
-              "RelativeDocumentMoniker": "Domain\\Patient.cs",
-              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Patient.cs",
-              "RelativeToolTip": "Domain\\Patient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:04:01.454Z"
+              "WhenOpened": "2024-05-19T21:35:02.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAowD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:20:44.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PatientProfile.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientProfile.cshtml.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\PatientProfile.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:11:45.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientProfile.cshtml",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientProfile.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\PatientProfile.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T21:11:43.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\Login.cshtml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAiwC8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:11:00.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\Login.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\Login.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T21:10:54.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PatientDashboard.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientDashboard.cshtml.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\PatientDashboard.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:11:30.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PatientDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\PatientDashboard.cshtml",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PatientDashboard.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\PatientDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T20:55:30.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PrescriptionMRecordWeb.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PrescriptionMRecordWeb.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\PrescriptionMRecordWeb.cshtml.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PrescriptionMRecordWeb.cshtml.cs",
+              "RelativeToolTip": "WebApp\\Pages\\PrescriptionMRecordWeb.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:41:23.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrescriptionMRecordWeb.cshtml",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PrescriptionMRecordWeb.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Pages\\PrescriptionMRecordWeb.cshtml",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\WebApp\\Pages\\PrescriptionMRecordWeb.cshtml",
+              "RelativeToolTip": "WebApp\\Pages\\PrescriptionMRecordWeb.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T11:59:38.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserDAL.cs",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\UserDAL.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\UserDAL.cs",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\UserDAL.cs",
               "RelativeToolTip": "DataAccessLayer\\UserDAL.cs",
-              "ViewState": "AQIAANIAAAAAAAAAAAAIwN0AAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:03:50.701Z"
+              "WhenOpened": "2024-05-09T19:55:43.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 1,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\UserManager.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\UserManager.cs",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\UserManager.cs",
               "RelativeToolTip": "BusinessLogic\\UserManager.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAIwHEAAAAsAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T21:49:06.06Z"
+              "WhenOpened": "2024-05-09T19:55:38.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User.cs",
               "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\User.cs",
               "RelativeToolTip": "Domain\\User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwA8AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T11:03:48.944Z"
+              "WhenOpened": "2024-05-09T19:55:34.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoctorDAL.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\DoctorDAL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DoctorDAL.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\DoctorDAL.cs",
+              "RelativeToolTip": "DataAccessLayer\\DoctorDAL.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowDwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:52:08.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DoctorManager.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\DoctorManager.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\DoctorManager.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\DoctorManager.cs",
+              "RelativeToolTip": "BusinessLogic\\DoctorManager.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:51:36.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Doctor.cs",
+              "RelativeDocumentMoniker": "Domain\\Doctor.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Doctor.cs",
+              "RelativeToolTip": "Domain\\Doctor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:50:36.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PatientDAL.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\PatientDAL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\PatientDAL.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\PatientDAL.cs",
+              "RelativeToolTip": "DataAccessLayer\\PatientDAL.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwGIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:51:54.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientManager.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\PatientManager.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\PatientManager.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\PatientManager.cs",
+              "RelativeToolTip": "BusinessLogic\\PatientManager.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIAiwBYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:34:11.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Patient.cs",
+              "RelativeDocumentMoniker": "Domain\\Patient.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\Patient.cs",
+              "RelativeToolTip": "Domain\\Patient.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA2wCQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:50:42.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MedicalRecordDAL.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\MedicalRecordDAL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\MedicalRecordDAL.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\DataAccessLayer\\MedicalRecordDAL.cs",
+              "RelativeToolTip": "DataAccessLayer\\MedicalRecordDAL.cs",
+              "ViewState": "AQIAAJMAAAAAGjMzMzMpwA4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:51:57.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicalRecordManager.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\MedicalRecordManager.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\MedicalRecordManager.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\BusinessLogic\\MedicalRecordManager.cs",
+              "RelativeToolTip": "BusinessLogic\\MedicalRecordManager.cs",
+              "ViewState": "AQIAAAkAAADgmZmZmZkuwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:51:33.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "Domain\\MedicalRecord.cs",
+              "ToolTip": "C:\\Users\\UNIV\\OneDrive\\Desktop\\IndividualProject\\individual-project-s2-2024\\UHMS\\Domain\\MedicalRecord.cs",
+              "RelativeToolTip": "Domain\\MedicalRecord.cs",
+              "ViewState": "AQIAABQAAAA4ODMzM5MwwBkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T19:50:48.32Z",
+              "EditorCaption": ""
             }
           ]
         }

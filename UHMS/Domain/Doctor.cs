@@ -24,6 +24,7 @@ namespace Domain
         GeneralPractitioner = 3,
         Neurologist = 4,
         Cardiologist = 5,
-        Oncologist = 6
+        Oncologist = 6,
+        Other = 999
     }
 }

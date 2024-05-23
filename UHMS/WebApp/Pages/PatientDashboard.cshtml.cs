@@ -1,6 +1,7 @@
 using DataAccessLayer;
 using Domain;
 using BusinessLogic;
+using DataAccessLayer.UnitTestInterfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
@@ -12,14 +13,14 @@ namespace WebApp.Pages
     [Authorize(Roles = "Patient")]
     public class PatientDashboardModel : PageModel
     {
-        private readonly UserDAL _userDAL;
+        private readonly IUserDAL _userDAL;
 
         public User User { get; set; }
 
         [BindProperty(SupportsGet = true)]
         public int UserId { get; set; }
 
-        public PatientDashboardModel(UserDAL userDAL)
+        public PatientDashboardModel(IUserDAL userDAL)
         {
             _userDAL = userDAL;
         }

@@ -31,11 +31,14 @@ namespace BusinessLogic
             // medication deletion logic
         }
 
-        public List<Medication> GetAllMedications()
+        // Used in ViewMedicines.cs for doctors.
+        private MedicationDAL medicationDal = new MedicationDAL();
+
+        public async Task<List<Medication>> GetAllMedications()
         {
-            // logic to retrieve all medications
-            return new List<Medication>();
+            return await medicationDal.GetAllMedications();
         }
+        //END ViewMedicines.cs
 
         public void CheckForHealthAlerts(int patientId, Medication medication)
         {

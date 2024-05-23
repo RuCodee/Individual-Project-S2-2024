@@ -11,7 +11,7 @@ namespace UHMSApp
     public class UserManagerTests
     {
         [TestMethod]
-        public async Task RegisterUserAsync_UserIsRegistered_ReturnsUserId()
+        public async Task RegisterUserAsync_UserIsRegistered_ReturnsUserId() //Register Users
         {
             var fakeUserDAL = new FakeUserDAL();
             var userManager = new UserManager(fakeUserDAL, new NullLogger<UserManager>());
@@ -23,7 +23,7 @@ namespace UHMSApp
         }
 
         [TestMethod]
-        public async Task GetUserByIdentifier_ExistingIdentifier_ReturnsUser()
+        public async Task GetUserByIdentifier_ExistingIdentifier_ReturnsUser() //Login (retrieve a user by their identifier)
         {
             var fakeUserDAL = new FakeUserDAL();
             var userManager = new UserManager(fakeUserDAL, new NullLogger<UserManager>());

@@ -65,32 +65,92 @@ namespace DataAccessLayer
                 using (var connection = DBHelper.OpenConnection())
                 {
                     var query = @"
-                SELECT u.FirstName, u.LastName
-                FROM Users u
-                INNER JOIN Patients p ON p.UserId = u.UserId
-                WHERE u.SSN = @SSN";
-
+                SELECT FirstName + ' ' + LastName AS FullName
+                FROM Users
+                WHERE SSN = @SSN";
                     using (var command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@SSN", ssn);
-                        using (var reader = command.ExecuteReader())
+                        var result = command.ExecuteScalar();
+                        if (result != null)
                         {
-                            if (reader.Read())
-                            {
-                                string firstName = reader["FirstName"] as string;  // Get the first name from the Users table
-                                string lastName = reader["LastName"] as string;    // Get the last name from the Users table
-                                return $"{firstName} {lastName}".Trim();
-                            }
+                            _logger.LogInformation($"Found patient name {result.ToString()} for SSN {ssn}.");
+                            return result.ToString(); //Full name as a string
+                        }
+                        else
+                        {
+                            _logger.LogWarning($"No patient found for SSN {ssn}.");
+                            return null; //No patient found
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error fetching patient name by SSN: {ssn}. Error: {ex.Message}");
+                _logger.LogError($"Error fetching patient name by SSN: {ssn}. Error: {ex.Message}");
+                return null; // Error condition
             }
-            return null;
         }
         //END SearchPatients *********
+
+        //Another method to recognize the patient in PrescriptionMRecord desktop
+
+        public int GetPatientIdBySSN(string ssn)
+        {
+            try
+            {
+                using (var connection = DBHelper.OpenConnection())
+                {
+                    var query = @"SELECT UserId FROM Users WHERE SSN = @SSN";
+                    using (var command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@SSN", ssn);
+                        var result = command.ExecuteScalar();
+                        if (result != null)
+                        {
+                            return Convert.ToInt32(result);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching patient ID by SSN: {ssn}. Error: {ex.Message}");
+            }
+            return 0; //Not found
+        }
+
+        //END PrescriptionMRecord
+
+        //ViewMedicalRecord form
+
+        public async Task<int> GetUserIdBySSN(string ssn)
+        {
+            using (var connection = DBHelper.OpenConnection())
+            {
+                var query = @"
+            SELECT UserId
+            FROM Users
+            WHERE SSN = @SSN";
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@SSN", ssn);
+                    var result = await command.ExecuteScalarAsync();
+                    if (result != null)
+                    {
+                        return Convert.ToInt32(result);
+                    }
+                    else
+                    {
+                        // No user is found with the given SSN
+                        return -1; //Throw new Exception("No user found with the specified SSN.");
+                    }
+                }
+            }
+        }
+
+        //END ViewMedicalRecord form
+
     }
 }
